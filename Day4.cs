@@ -8,6 +8,25 @@ namespace AdventOfCode
     {
         readonly List<string> _fieldContent = new List<string>();
         private string _row;
+        string[] passportsText;
+        int validPassports = 0;
+
+        public Day4()
+        {
+           
+            string text = File.ReadAllText(@"txtFiles\Day4.txt");
+
+            passportsText = text.Split("\r\n\r\n", StringSplitOptions.RemoveEmptyEntries);
+            
+
+            using (var reader = new StreamReader(@"txtFiles\Day4.txt"))
+            {
+                while ((_row = (reader.ReadLine())) != null)
+                {
+                    _fieldContent.AddRange(new[] {_row});
+                }
+            }
+        }
 
         public void Day4Part1()
         {
@@ -53,18 +72,7 @@ namespace AdventOfCode
 
             #endregion
 
-            string text = File.ReadAllText(@"txtFiles\Day4.txt");
-
-            string[] passportsText = text.Split("\r\n\r\n", StringSplitOptions.RemoveEmptyEntries);
-            int validPassports = 0;
-
-            using (var reader = new StreamReader(@"txtFiles\Day4.txt"))
-            {
-                while ((_row = (reader.ReadLine())) != null)
-                {
-                    _fieldContent.AddRange(new[] {_row});
-                }
-            }
+            
 
             foreach (string passport in passportsText)
             {
@@ -156,10 +164,6 @@ namespace AdventOfCode
             // 
 
             #endregion
-
-            string text = File.ReadAllText(@"txtFiles\Day4.txt");
-            string[] passportsText = text.Split("\r\n\r\n", StringSplitOptions.RemoveEmptyEntries);
-            int validPassports = 0;
 
             foreach (string passport in passportsText)
             {

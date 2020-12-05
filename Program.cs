@@ -15,9 +15,13 @@
             //Day3 day3 = new Day3();
             //day3.Day3Lösung1();
 
-            Day4 day4 = new Day4();
-            day4.Day4Part1();
-            day4.Day4Part2();
+            //Day4 day4 = new Day4();
+            //day4.Day4Part1();
+            //day4.Day4Part2();
+
+            Day5 day5 = new Day5();
+            day5.Day5Part1();
+            day5.Day5Part2();
         }
     }
 }
