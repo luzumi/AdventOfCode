@@ -18,14 +18,6 @@ namespace AdventOfCode
 
             passportsText = text.Split("\r\n\r\n", StringSplitOptions.RemoveEmptyEntries);
             
-
-            using (var reader = new StreamReader(@"txtFiles\Day4.txt"))
-            {
-                while ((_row = (reader.ReadLine())) != null)
-                {
-                    _fieldContent.AddRange(new[] {_row});
-                }
-            }
         }
 
         public void Day4Part1()
