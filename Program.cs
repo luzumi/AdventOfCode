@@ -23,9 +23,13 @@
             //day5.Day5Part1();
             //day5.Day5Part2();
 
-            Day6 day6 = new Day6();
-            day6.Day6Part1();
-            day6.Day6Part2();
+            //Day6 day6 = new Day6();
+            //day6.Day6Part1();
+            //day6.Day6Part2();
+
+            Day7 day7 = new Day7();
+            day7.Day7Part1();
+            day7.Day7Part2();
         }
     }
 }
