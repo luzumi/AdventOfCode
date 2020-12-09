@@ -6,8 +6,6 @@ namespace AdventOfCode
 {
     public class Day4
     {
-        readonly List<string> _fieldContent = new List<string>();
-        private string _row;
         string[] passportsText;
         int validPassports = 0;
 
