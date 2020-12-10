@@ -2,6 +2,7 @@
 {
     class Program
     {
+
         public static void Main(string[] args)
         {
             //Day1 day1 = new Day1();
@@ -13,7 +14,8 @@
             //day2.Day2Part2();
 
             //Day3 day3 = new Day3();
-            //day3.Day3Lösung1();
+            //day3.Day3Part1();
+            //day3.Day3Part2();
 
             //Day4 day4 = new Day4();
             //day4.Day4Part1();
@@ -35,9 +37,13 @@
             //day8.Day8Part1();
             //day8.Day8Part2();
 
-            Day9 day9 = new Day9();
-            day9.Day9Part1();
-            day9.Day9Part2();
+            //Day9 day9 = new Day9();
+            //day9.Day9Part1();
+            //day9.Day9Part2();
+
+            Day10 day10 = new Day10();
+            day10.Day10Part1();
+            day10.Day10Part2();
         }
     }
 }

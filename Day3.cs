@@ -24,7 +24,7 @@ namespace AdventOfCode
             _rowCount = FileContent.Count;
         }
 
-        public void Day3Lösung1()
+        public void Day3Part2()
         {
 
 

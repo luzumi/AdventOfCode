@@ -173,6 +173,7 @@ namespace AdventOfCode
 
                         Array.Sort(result);
                         Console.WriteLine(result[0] + result[^1]);
+                        return;
                     }
 
                     if (sub > invalidNumber) break;

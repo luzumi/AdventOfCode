@@ -9,9 +9,10 @@ namespace AdventOfCode
         string[] passportsText;
         int validPassports = 0;
 
+        
+
         public Day4()
         {
-           
             string text = File.ReadAllText(@"txtFiles\Day4.txt");
 
             passportsText = text.Split("\r\n\r\n", StringSplitOptions.RemoveEmptyEntries);
@@ -61,8 +62,6 @@ namespace AdventOfCode
             // Count the number of valid passports - those that have all required fields. Treat cid as optional. In your batch file(Day4.txt), how many passports are valid?
 
             #endregion
-
-            
 
             foreach (string passport in passportsText)
             {
