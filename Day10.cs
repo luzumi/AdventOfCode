@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
 namespace AdventOfCode
 {
@@ -132,7 +131,7 @@ namespace AdventOfCode
             }
 
             //_FileContent.ForEach(Console.WriteLine);
-            Console.WriteLine($"{oneJolt} differences of 1 jolt multiplied with " +
+            Console.WriteLine($"{oneJolt} differences of 1 jolt multiplied * " +
                               $"{++threeJolt} differences of 3 jolts  =  {oneJolt * threeJolt}");
         }
 
@@ -217,7 +216,7 @@ namespace AdventOfCode
                 }
             }
 
-            Console.WriteLine(routes[^1]);
+            Console.WriteLine($"this input have {routes[^1]} different Solutions");
         }
     }
 }
