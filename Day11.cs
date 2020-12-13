@@ -378,7 +378,7 @@ namespace AdventOfCode
             return counter;
         }
 
-
+        //korrekte Lösung (from Github)
         public static void SolveDay11(string filename, int maxNeighbors, int maxSteps)
         {
             var seatGrid = File.ReadAllLines(filename);

@@ -45,11 +45,15 @@
             //day10.Day10Part1();
             //day10.Day10Part2();
 
-            Day11 day11 = new Day11();
-            day11.Day11Part1();
+            //Day11 day11 = new Day11();
+            //day11.Day11Part1();
             //day11.Day11Part2();
             //Day11.SolveDay11(@"txtFiles\Day11.txt",4,1);
             //Day11.SolveDay11(@"txtFiles\Day11.txt",5,-1);
+
+            Day12 day12 = new Day12();
+            day12.Day12Part1();
+            day12.Day12Part2();
         }
     }
 }
